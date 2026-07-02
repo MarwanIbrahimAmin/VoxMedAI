@@ -12,7 +12,7 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
-from config import PDF_SOURCE_TEXT, PDF_TITLE, SUPPORTED_AUDIO_TYPES, SUPPORTED_REPORT_TYPES
+from voxmed.config import PDF_SOURCE_TEXT, PDF_TITLE, SUPPORTED_AUDIO_TYPES, SUPPORTED_REPORT_TYPES
 
 # Load Environment Variables
 load_dotenv()
