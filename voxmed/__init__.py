@@ -1,0 +1,3 @@
+"""
+VoxMed package initialization.
+"""
